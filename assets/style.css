@@ -1,0 +1,18 @@
+.form-inline{
+    background-color: rgb(175, 175, 175)
+}
+
+.form-control{
+    background-color: rgb(236, 236, 236);
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px
+    
+}
+
+.col-md-4{
+    align-content: left;
+}
+
+header.jumbotron{
+    background-image: ("http://diymag.com/media/img/Artists/D/Death_Grips/_1200x675_crop_center-center_75/death-grips-on-gp.jpg");
+}
