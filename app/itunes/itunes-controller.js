@@ -19,12 +19,16 @@ function ItunesController() {
 
       var songIndex = songList[song];
       songTemplate += `
-      <div class="col-md-6">
+      <div class="panel panel-default">
           <ul id='song-list'>
               <div>
                   <img src="${songIndex.albumArt}" alt="">
-                  <h4>${songIndex.title}</h4>
+                  <h4><b>${songIndex.title}</b></h4>
+                  <h5>${songIndex.artist}</h5>
                   <audio controls="controls" src="${songIndex.preview}"></audio>
+              </div>
+              <div>
+                  <h4>${songIndex.collection}: $${songIndex.price}</h4>
               </div>
           </ul>
       </div>
